@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="min-h-screen bg-gray-950 relative">
+        <div class="header flex py-4 px-32">
+            <div class="logo inline-flex">
+                <img src="Images/salad.png" class="h-16 cursor-pointer" alt="" />
+                <div class="font-bold text-2xl mt-5 ml-4 text-emerald-300 cursor-pointer">Grocify</div>
+            </div>
+            <ul class="flex-1 text-center mt-7">
+                <li class="inline-block">
+                    <a class="px-5 text-white font-semibold hover:text-emerald-300" href="#">Home</a>
+                </li>
+                <li class="inline-block">
+                    <a class="px-5 text-white font-semibold hover:text-emerald-300" href="#">About</a>
+                </li>
+                <li class="inline-block">
+                    <a class="px-5 text-white font-semibold hover:text-emerald-300" href="#">Services</a>
+                </li>
+                <li class="inline-block">
+                    <a class="px-5 text-white font-semibold hover:text-emerald-300" href="#">Contact Us</a>
+                </li>
+            </ul>
+            <div class="addToCardIcon mt-5">
+                <img src="./Images/shopping-bag_3.png" class="h-10" alt="" />
+            </div>
+        </div>
+
+        <div class="content py-28 ps-32">
+            <h3 class="text-white text-5xl font-bold leading-normal">
+                Groceries <br />
+                delivery in <span class="font-normal text-4xl">15 mins</span>
+            </h3>
+            <p class="text-white mb-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Hic fugiat,
+                ex nesciunt possimus facere fuga sint rerum!
+            </p>
+            <a href="#"
+                class="text-white bg-emerald-300 hover:bg-transparent border border-red-950 p-2 px-3 rounded-full font-semibold">Order
+                Now</a>
+            <a href="#"
+                class="text-white hover:bg-emerald-300 p-2 px-3 rounded-full font-semibold bg-transparent border border-red-950 ms-2">Download
+                Now <span class="text-1xl font-bold inline-block rotate-180">&#8593;</span></a>
+        </div>
+        <div class="picture absolute left-2/4 bottom-24">
+            <img src="./Images/sale-2-removebg-preview.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
